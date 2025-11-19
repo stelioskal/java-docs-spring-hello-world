@@ -15,6 +15,6 @@ public class DemoApplication {
 
 	@RequestMapping("/")
 	String sayHello() {
-		return "Hello World! This is my first attempt to use CI/CD. corrected";
+		return "Hello World! This is my first attempt to use CI/CD. corrected. Third";
 	}
 }
