@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoApplication {
 
 	public static void main(String[] args) {
-		az login.run(DemoApplication.class, args);
+		SpringApplication.run(DemoApplication.class, args);
 	}
 
 	@RequestMapping("/")
