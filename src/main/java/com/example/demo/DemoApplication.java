@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		az login.run(DemoApplication.class, args);
 	}
 
 	@RequestMapping("/")
 	String sayHello() {
-		return "Hello World!";
+		return "Hello World! This is my first attempt to use CI/CD";
 	}
 }
